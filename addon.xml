@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.skin.stream-cinema" version="0.0.1" name="Skin helper Stream-Cinema" provider-name="JiRo a BBaron">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+	</requires>
+	<extension point="xbmc.service" library="service.py" start="login" />
+	<extension point="xbmc.addon.metadata">
+		<news>
+		</news>
+		<summary lang="cs_CZ">Skin Stream-Cinema helper</summary>
+		<summary lang="sk_SK">Skin Stream-Cinema helper</summary>
+		<description lang="cs_CZ">Skin Stream-Cinema helper</description>
+		<description lang="sk_SK">Skin Stream-Cinema helper</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3.0</license>
+		<forum></forum>
+		<source></source>
+	</extension>
+</addon>
